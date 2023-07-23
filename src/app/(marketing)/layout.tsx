@@ -1,4 +1,4 @@
-export default function DashboardLayout({
+export default function MarketingLayout({
   children, // will be a page or nested layout
 }: {
   children: React.ReactNode;
@@ -7,7 +7,7 @@ export default function DashboardLayout({
     <section>
       {/* Include shared UI here e.g. a header or sidebar */}
       <nav>
-        <h1>DeshBoard Layout</h1>
+        <h1>Marketing Layout</h1>
       </nav>
 
       {children}
