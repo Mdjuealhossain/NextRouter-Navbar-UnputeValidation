@@ -1,9 +1,9 @@
-import "../blog/style.css";
-import BlogNavigation from "../blog/Navigation";
+import BlogNavigation from "./Navigation";
+
 const posts = [
   {
     id: 1,
-    name: "CSStr",
+    name: "CSS",
     slug: "/css",
   },
   {
@@ -20,7 +20,6 @@ export default function DashboardLayout({
 }) {
   return (
     <section>
-      {/* Include shared UI here e.g. a header or sidebar */}
       <BlogNavigation posts={posts}></BlogNavigation>
 
       {children}

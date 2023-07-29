@@ -1,5 +1,6 @@
 import Link from "next/link";
 import PostList from "./PostList";
+import "./style.css";
 
 export default function Home() {
   const posts = [

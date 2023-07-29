@@ -1,0 +1,37 @@
+.text-blue {
+  color: blue;
+}
+
+.text-black {
+  color: #f00;
+}
+.nav-div {
+  height: 4rem;
+  background: #3a3737;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.nav-link {
+  color: #fff;
+  font-size: 18px;
+}
+.nav-div2 {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+.btn {
+  background-color: #fff;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-right: 15px;
+  padding-bottom: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: #231d1d;
+  color: #fff;
+}

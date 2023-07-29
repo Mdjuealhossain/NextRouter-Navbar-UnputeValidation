@@ -20,13 +20,15 @@ export function Navigation({ navLinks }: propstyp) {
         const isActive = pathname.startsWith(link.href);
 
         return (
-          <Link
-            className={!isActive ? "text-blue" : "text-black"}
-            href={`blog/${link.href}`}
-            key={link.name}
-          >
-            {link.name}
-          </Link>
+          <div>
+            <Link
+              className={isActive ? "text-blue" : "text-black"}
+              href={`blog/${link.href}`}
+              key={link.name}
+            >
+              {link.name}
+            </Link>
+          </div>
         );
       })}
     </>

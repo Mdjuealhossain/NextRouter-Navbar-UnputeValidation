@@ -1,16 +1,22 @@
 import { Navigation } from "./navigation";
+import "./style.css";
 
 export default function Home() {
   const navlink = [
     {
       id: 1,
-      name: "css",
+      name: "CSS",
       href: "/css",
     },
     {
       id: 2,
-      name: "eee",
+      name: "EEE",
       href: "/eee",
+    },
+    {
+      id: 3,
+      name: "English",
+      href: "/english",
     },
   ];
   return (
